@@ -114,19 +114,19 @@
                     method="POST">
                     <div class="row mb-3">
                     <label for="username" class="form-label">Nombre Completo</label>
-                    <input type="text" class="form-control" id="username" placeholder="Ingrese su nombre completo" required>
+                    <input id="username" name="username" type="text" class="form-control"  placeholder="Ingrese su nombre completo" required>
                     </div>
                     <div class="row mb-3">
                     <label for="tel" class="form-label">Numero de Telefono</label>
-                    <input type="number" class="form-control" id="tel" placeholder="Ingrese su numero de telefono" required>
+                    <input id="tel" name="tel"   type="number" class="form-control"  placeholder="Ingrese su numero de telefono" required>
                     </div>
                     <div class="row mb-3">
                       <label for="useremail" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="useremail" aria-describedby="emailHelp" placeholder="Ingrese su email" required>
+                      <input id="useremail" name="useremail" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Ingrese su email" required>
                     </div>
                     <div class="row mb-3">
                         <label for="comentarios" class="form-label">Consulta</label>
-                        <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese su consulta" required></textarea>
+                        <textarea  id="comentarios" name="comentarios" class="form-control" rows="3" placeholder="Ingrese su consulta" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                   </form>
