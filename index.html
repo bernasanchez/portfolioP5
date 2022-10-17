@@ -62,37 +62,73 @@
             <!-- SECCION PORTFOLIO -->
             <section class="container container-portfolio">
                 <div class="row">
-                    <div class="col">TRABAJO</div>
-                    <div class="col">TRABAJO</div>
-                    <div class="col">TRABAJO</div>
+                    <h2>PORTFOLIO</h2>
+                </div>
+                <div class="row">
+                    <div class="col">
+                      <figure class="figure">
+                        <a href="">
+                          <img  src="img/deco1.jpg" class="figure-img img-fluid rounded trabajo-card" alt="...">
+                          <figcaption class="figure-caption">Decoracion</figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                    <div class="col">
+                      <figure class="figure">
+                        <a href="">
+                          <img src="img/pesas2.jpg" class="figure-img img-fluid rounded trabajo-card" alt="...">
+                          <figcaption class="figure-caption">Entrenamiento</figcaption>
+                        </a>  
+                        </figure>
+                    </div>
+                    <div class="col">
+                      <figure class="figure ">
+                        <a href="">
+                          <img src="img/pc1.jpg" class="figure-img img-fluid rounded trabajo-card" alt="...">
+                          <figcaption class="figure-caption">Programacion</figcaption>
+                        </a>
+                      </figure>
+                    </div>
                 </div>
             </section>
 
+
             <!-- SECCION ACERCA DE MI -->
             <section class="container acerca">
-
                 <h2>ACERCA DE MI</h2>
                 <hr>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, magnam.</p>
+                <p class="acerca-presentacion">
+                  Mi nombre es Bernardo Sánchez y soy Desarrollador Frontend 💻 <br>
+                  Actualmente estoy capacitándome en: <br>
+                   1 - Tecnicatura en Desarrollo Web y Aplicaciones Digitales (Inst. Superior Politécnico Córdoba) <br>
+                   2 - Desarrollo Full Stack (CoderHouse) <br>
+                  Mi objetivo laboral es desempeñarme como Front End Developer.</p>
             </section>
 
             <!-- SECCION CONTACTO -->
             <section class="container contacto">
                 <h2>CONTACTO</h2>
                 <hr>
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <form  
+                    action="https://formspree.io/f/xyyvdyqg"
+                    method="POST">
+                    <div class="row mb-3">
+                    <label for="username" class="form-label">Nombre Completo</label>
+                    <input type="text" class="form-control" id="username" placeholder="Ingrese su nombre completo" required>
                     </div>
-                   
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="row mb-3">
+                    <label for="tel" class="form-label">Numero de Telefono</label>
+                    <input type="number" class="form-control" id="tel" placeholder="Ingrese su numero de telefono" required>
                     </div>
-                    
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="row mb-3">
+                      <label for="useremail" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="useremail" aria-describedby="emailHelp" placeholder="Ingrese su email" required>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="comentarios" class="form-label">Consulta</label>
+                        <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese su consulta" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                   </form>
             </section>
 

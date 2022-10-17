@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+}
 .container-fluid{
     height: auto;
     background-color: #D8E9A8;
@@ -31,17 +33,32 @@
 
 .container-portfolio{
     background-color: #1E5128;
-    height: 400px;
+    height: auto;
+    text-align: center;
 }
+
+    .trabajo-card{
+        width: 300px;
+        height: 300px;
+    }
+
 
 .acerca{
     background-color: #307e40;
     height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
+    .acerca-presentacion{
+        text-align: justify;
+        letter-spacing: 1px;
+    }
 
 .contacto{
     background-color: #3d9e50;
-    height: 400px;
+    height: auto;
 }
 
 .footer{
