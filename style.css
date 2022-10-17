@@ -1,0 +1,51 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    height: auto;
+    background-color: #D8E9A8;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-menu{
+    background-color: #4E9F3D;
+}
+
+.container-encabezado{
+    background-color: blue;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+    .encabezado-img{
+        max-width: 30%;
+        max-height: 30%;
+        border-radius: 20px;
+    }
+
+
+.container-portfolio{
+    background-color: #1E5128;
+    height: 400px;
+}
+
+.acerca{
+    background-color: #307e40;
+    height: 400px;
+}
+
+.contacto{
+    background-color: #3d9e50;
+    height: 400px;
+}
+
+.footer{
+    background-color: #191A19;
+    height: 400px;
+    color: white;
+}
